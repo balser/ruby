@@ -6,6 +6,8 @@ RUN apt-get update && apt-get install -y \
 	curl \
 	libbison-dev \
 	libffi-dev \
+	libfreetype6 \
+	libfontconfig1 \
 	libgdbm-dev \
 	libicu-dev \
 	libmysqlclient-dev \
