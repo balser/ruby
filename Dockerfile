@@ -4,6 +4,7 @@ FROM debian:jessie
 RUN apt-get update && apt-get install -y \
 	build-essential \
 	curl \
+	git \
 	libbison-dev \
 	libffi-dev \
 	libfreetype6 \
